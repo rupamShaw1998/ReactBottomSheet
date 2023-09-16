@@ -1,11 +1,10 @@
 import './App.css';
+import BottomSheet from './components/BottomSheet';
 
 function App() {
 
   return (
-    <>
-      <h1>Bottom Sheet</h1>
-    </>
+    <BottomSheet />
   );
 };
 

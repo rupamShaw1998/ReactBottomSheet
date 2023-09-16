@@ -1,0 +1,55 @@
+.container {
+    height: 100%;
+}
+
+.bottom-sheet {
+    border-radius: 10%;
+    position: fixed;
+    bottom: 0;
+    left: 36%;
+    width: 30%;
+    height: 100%;
+    background-color: rgb(179, 179, 179);
+    transition: transform 0.3s cubic-bezier(0.25, 0.1, 0.25, 1);
+  }
+  
+  /* Define styles for each snap point */
+  .closed {
+    transform: translateY(100%);
+  }
+  
+  .half-open {
+    transform: translateY(50%);
+  }
+  
+  .fully-open {
+    transform: translateY(15%);
+  }
+  
+  /* Add styles for content within each snap point */
+  .content {
+    /* Define styles for content here */
+  }
+
+  button {
+    background-color: blue;
+    color: white;
+    border: 0;
+    border-radius: 7px;
+    margin: 5px;
+    padding: 10px 15px;
+  }
+
+  span {
+    font-size: 25px;
+    color: rgb(134, 21, 21);
+    font-weight: bold;
+  }
+
+  @media (max-width: 768px) {
+    .bottom-sheet {
+        left: 10%;
+        width: 80%;
+    }
+  }
+  
