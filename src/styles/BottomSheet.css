@@ -13,7 +13,6 @@
     transition: transform 0.3s cubic-bezier(0.25, 0.1, 0.25, 1);
   }
   
-  /* Define styles for each snap point */
   .closed {
     transform: translateY(100%);
   }
@@ -24,11 +23,6 @@
   
   .fully-open {
     transform: translateY(15%);
-  }
-  
-  /* Add styles for content within each snap point */
-  .content {
-    /* Define styles for content here */
   }
 
   button {
